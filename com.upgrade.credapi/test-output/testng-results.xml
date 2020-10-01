@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55303" started-at="2020-09-29T23:13:40 IST" finished-at="2020-09-29T23:14:35 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="55303" started-at="2020-09-29T23:13:40 IST" finished-at="2020-09-29T23:14:35 IST">
+      <class name="com.upgrade.credapi.Web_UI_Validations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.upgrade.credapi.Web_UI_Validations@7d70d1b1]" name="beforeSuite" is-config="true" duration-ms="23200" started-at="2020-09-29T23:13:16 IST" finished-at="2020-09-29T23:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.upgrade.credapi.Web_UI_Validations@7d70d1b1]" name="test1" duration-ms="862" started-at="2020-09-29T23:13:40 IST" finished-at="2020-09-29T23:13:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.upgrade.credapi.Web_UI_Validations@7d70d1b1]" name="test2" duration-ms="36697" started-at="2020-09-29T23:13:41 IST" depends-on-methods="com.upgrade.credapi.Web_UI_Validations.test1" finished-at="2020-09-29T23:14:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.upgrade.credapi.Web_UI_Validations@7d70d1b1]" name="afterSuite" is-config="true" duration-ms="9413" started-at="2020-09-29T23:14:35 IST" finished-at="2020-09-29T23:14:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.upgrade.credapi.Web_UI_Validations -->
+      <class name="com.upgrade.credapi.API_Validations">
+        <test-method status="PASS" signature="validAuthenticationTest()[pri:0, instance:com.upgrade.credapi.API_Validations@2a742aa2]" name="validAuthenticationTest" duration-ms="13054" started-at="2020-09-29T23:14:17 IST" finished-at="2020-09-29T23:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAuthenticationTest -->
+        <test-method status="PASS" signature="validateAttribute()[pri:1, instance:com.upgrade.credapi.API_Validations@2a742aa2]" name="validateAttribute" duration-ms="2188" started-at="2020-09-29T23:14:30 IST" depends-on-methods="com.upgrade.credapi.API_Validations.validAuthenticationTest" finished-at="2020-09-29T23:14:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAttribute -->
+        <test-method status="PASS" signature="inValidAuthenticationTest()[pri:2, instance:com.upgrade.credapi.API_Validations@2a742aa2]" name="inValidAuthenticationTest" duration-ms="2378" started-at="2020-09-29T23:14:33 IST" finished-at="2020-09-29T23:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidAuthenticationTest -->
+      </class> <!-- com.upgrade.credapi.API_Validations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
